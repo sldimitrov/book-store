@@ -1,0 +1,12 @@
+// Brand Colors
+$color-primary: #1b263b; // Heritage Navy (Trustworthy & Deep)
+$color-accent: #9e2a2b; // Crimson Red (For 'Sale' or 'Buy Now')
+$color-bg: #f4f1de; // Warm Parchment (Cozy & Easy on the eyes)
+
+// Neutrals
+$color-text: #2d3436;
+$color-white: #ffffff;
+$color-border: darken(
+  $color-bg,
+  10%
+); // Auto-calculates a darker shade for borders
