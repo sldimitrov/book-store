@@ -1,4 +1,27 @@
-footer {
-  display: flex:
+@use '@sass/variable';
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  background: variable.$color-accent;
+
+  width: 100%;
+
+  ul {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  li {
+    span {
+      color: black;
+      text-transform: uppercase;
+
+    }
+  }
 }
+
